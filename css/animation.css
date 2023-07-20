@@ -83,6 +83,37 @@ body {
 	font-size: 20px;
 }
 
+.banner-btn{
+	position: absolute;
+	left: 36%;
+	top: 80%;
+}
+
+.banner-btn a{
+	width: 150px;
+	display: inline-block;
+	margin: 0 12px;
+	padding: 12px 0;
+	border: 1px solid white;
+	border-color: #000000;
+	text-decoration: none;
+	text-align: center;
+	background-color: #000000;
+}
+
+.banner-btn a:hover{
+	background-color: lightgreen;
+	font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
 .box {
 	background-size: 100%;
 	width: 350px;
