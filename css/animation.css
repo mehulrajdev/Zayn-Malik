@@ -46,6 +46,10 @@ a:hover {
 
 /* ----------------------------------------------------------- */
 
+*{
+	margin: 0;
+	padding: 0;
+}
 
 body {
 	background-color: #000000;
@@ -58,6 +62,26 @@ body {
 	height: 120vh;
 }
 
+.logo{
+	width: 150px;
+	position: absolute;
+	top: 4%;
+	left: 8%;
+}
+
+.banner-text{
+	text-align: center;
+	color: white;
+	padding: 180px;
+}
+
+.banner-text h1{
+	font-size: 132px;
+}
+
+.banner-text p{
+	font-size: 20px;
+}
 
 .box {
 	background-size: 100%;
