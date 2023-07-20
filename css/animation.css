@@ -1,0 +1,90 @@
+
+
+#showcase {
+	font-family: oswald;
+	padding-top: 60px;
+	height: 275px;
+	padding-top: 0;
+	 
+}
+#showcase h1 {
+	font-size: 60px;
+	color: #ffffff;
+	text-align: center;
+	animation: heading;
+	position: relative;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	}
+	#showcase a {
+		animation: links;
+	position: relative;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	}
+@keyframes heading {
+	0% { top: -50px; }
+	100% { top: 10px }
+}
+@keyframes links {
+	0% { bottom: -40px; }
+	100% { bottom: -15px }
+}
+a {
+	text-decoration: none;
+	color:#ffffff;
+	border: 2px solid #ffffff;
+	margin: 30px;
+	font-size: 17px;
+	margin-bottom:  30px;
+	padding: 10px;
+	opacity: 0.7;
+}
+a:hover {
+	opacity: 1;
+}
+
+/* ----------------------------------------------------------- */
+
+
+body {
+	background-color: #000000;
+	font-family: oswald;
+}
+
+#banner{
+	background: url(/images/zayn1-bg.jpg);
+	background-size: cover;
+	height: 120vh;
+}
+
+
+.box {
+	background-size: 100%;
+	width: 350px;
+	height: 175px;
+	position: relative;
+	margin: auto;
+	border: 6px solid #ffffff;
+	animation: myanimation 30s infinite linear;
+	display: inline-block;
+}
+
+
+
+@keyframes myanimation {
+	0% { background-image: url(/images/zayn5.jpg); background-repeat: 
+		no-repeat; background-size: 100%;}
+	25% { background-image: url(/images/zayn1.jpg); background-repeat: no-repeat; background-size: 100%;  }
+	50% { background-image: url(/images/zayn2.jpg);background-repeat: no-repeat; background-size: 100%; }
+	75% { background-image: url(/images/zayn3.jpg);background-repeat: no-repeat;background-size: 100%;  }
+	100% { background-image: url(/images/zayn4.jpg);background-repeat: no-repeat; background-size: 100%;  }
+
+}
+/* 
+.box:hover  {
+background-image: url(images/zayn1.jpg);
+background-repeat: no-repeat;
+background-size: 100%; 
+
+} */
