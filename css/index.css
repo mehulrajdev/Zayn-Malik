@@ -22,12 +22,6 @@ body {
     opacity: 0.4;
 }
 
-.logo{
-	width: 150px;
-	position: absolute;
-	top: 4%;
-	left: 8%;
-}
 
 .banner-text{
 	text-align: center;
@@ -44,9 +38,9 @@ body {
 
 }
 
-.banner-text p{
+/* .banner-text p{
 	font-size: 20px;
-}
+} */
 
 .banner-btn{
 	position: absolute;
