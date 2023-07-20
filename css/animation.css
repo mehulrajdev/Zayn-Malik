@@ -25,6 +25,12 @@
 
 }
 
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 /* 
 .box:hover  {
 background-image: url(images/zayn1.jpg);

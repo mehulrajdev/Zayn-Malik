@@ -18,10 +18,7 @@ body {
     background-image: url('/images/zayn1-bg.jpg');
     background-size: cover;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    inset: 0px;
     opacity: 0.4;
 }
 
@@ -40,6 +37,11 @@ body {
 
 .banner-text h1{
 	font-size: 132px;
+}
+
+#blink{
+	animation: blinker 1.5s linear infinite;
+
 }
 
 .banner-text p{
