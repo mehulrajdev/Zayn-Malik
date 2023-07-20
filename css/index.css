@@ -10,9 +10,19 @@ body {
 }
 
 #banner{
-	background: url(/images/zayn1-bg.jpg);
-	background-size: cover;
-	height: 120vh;
+	height: 120vh; 
+}
+
+#banner::before {    
+    content: "";
+    background-image: url('/images/zayn1-bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
 }
 
 .logo{
@@ -47,15 +57,15 @@ body {
 	display: inline-block;
 	margin: 0 12px;
 	padding: 12px 0;
-	border: 1px solid white;
-	border-color: #000000;
+	border: 1px solid black;
 	text-decoration: none;
 	text-align: center;
 	background-color: #000000;
+    color: white;
 }
 
 .banner-btn a:hover{
-	background-color: lightgreen;
+	background-color: #29282E;
 	font-size: 28px;
 }
 
