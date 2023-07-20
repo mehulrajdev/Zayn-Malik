@@ -1,0 +1,61 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000000;
+	font-family: oswald;
+}
+
+#banner{
+	background: url(/images/zayn1-bg.jpg);
+	background-size: cover;
+	height: 120vh;
+}
+
+.logo{
+	width: 150px;
+	position: absolute;
+	top: 4%;
+	left: 8%;
+}
+
+.banner-text{
+	text-align: center;
+	color: white;
+	padding: 180px;
+}
+
+.banner-text h1{
+	font-size: 132px;
+}
+
+.banner-text p{
+	font-size: 20px;
+}
+
+.banner-btn{
+	position: absolute;
+	left: 36%;
+	top: 80%;
+}
+
+.banner-btn a{
+	width: 150px;
+	display: inline-block;
+	margin: 0 12px;
+	padding: 12px 0;
+	border: 1px solid white;
+	border-color: #000000;
+	text-decoration: none;
+	text-align: center;
+	background-color: #000000;
+}
+
+.banner-btn a:hover{
+	background-color: lightgreen;
+	font-size: 28px;
+}
+
