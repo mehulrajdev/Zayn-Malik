@@ -6,6 +6,7 @@
 body {
   background-color: #000000;
   font-family: oswald;
+  cursor: url("/images/cu_bg.png"),auto;
 }
 
 #banner {
