@@ -10,7 +10,7 @@ body {
 }
 
 #banner {
-  height: 120vh;
+  height: 108vh;
 }
 
 #banner::before {
@@ -65,7 +65,25 @@ body {
 
 #about{
 	width: 100%;
-	padding: 72px 0;
+	padding: 48px 0;
+}
+
+.title-text{
+	text-align: center;
+	padding-bottom: 68px;
+}
+.title-text h1{
+	font-size: 52px;
+	color: white;
+}
+
+.about-box{
+	width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
 }
 
 .section{
