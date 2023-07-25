@@ -86,6 +86,21 @@ body {
     text-align: center;
 }
 
+.about{
+	flex-basis: 50%;
+}
+
+.about-img{
+	flex-basis: 50%;
+	margin: auto;
+}
+
+.about-img img{
+	width: 70%;
+	border-radius: 12px;
+}
+
+
 .section{
 	position: absolute;
 	left: 24%;
