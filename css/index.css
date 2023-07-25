@@ -90,6 +90,30 @@ body {
 	flex-basis: 50%;
 }
 
+.about h1{
+	text-align: left;
+	margin-bottom: 12px;
+	font-weight: 100;
+	color: white;
+}
+
+.about-brief{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.about-icon .em{
+	width: 52px;
+	height: 52px;
+}
+
+.about-text p{
+	padding: 0 20px;
+	text-align: initial;
+	color: white;
+}
+
 .about-img{
 	flex-basis: 50%;
 	margin: auto;
