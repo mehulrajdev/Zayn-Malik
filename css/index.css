@@ -37,9 +37,7 @@ body {
   animation: blinker 1.5s linear infinite;
 }
 
-/* .banner-text p{
-	font-size: 20px;
-} */
+
 
 .banner-btn {
   position: absolute;
