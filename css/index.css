@@ -125,6 +125,18 @@ body {
 	border-radius: 12px;
 }
 
+#music{
+  width: 100%;
+  padding: 48px 0;
+}
+
+.music-box{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 .section{
 	position: absolute;
