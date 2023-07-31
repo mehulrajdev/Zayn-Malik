@@ -17,21 +17,25 @@
     background-repeat: no-repeat;
     background-size: 100%;
   }
+
   25% {
     background-image: url(/images/zayn1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
+
   50% {
     background-image: url(/images/zayn2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
+
   75% {
     background-image: url(/images/zayn3.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
+
   100% {
     background-image: url(/images/zayn4.jpg);
     background-repeat: no-repeat;
@@ -44,4 +48,3 @@
     opacity: 0;
   }
 }
-

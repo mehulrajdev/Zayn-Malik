@@ -6,7 +6,7 @@
 body {
   background-color: #000000;
   /* font-family: oswald; */
-  cursor: url("/images/cu_bg.png"),auto;
+  cursor: url("/images/cu_bg.png"), auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -62,73 +62,74 @@ body {
   font-size: 28px;
 }
 
-#about{
-	width: 100%;
-	padding: 48px 0;
-}
-
-.title-text{
-	text-align: center;
-	padding-bottom: 68px;
-}
-.title-text h1{
-	font-size: 52px;
-	color: white;
-}
-
-.about-box{
-	width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-}
-
-.about{
-	flex-basis: 50%;
-}
-
-.about h1{
-	text-align: left;
-	margin-bottom: 12px;
-	font-weight: 100;
-	color: white;
-}
-
-.about-brief{
-	display: flex;
-	align-items: center;
-	margin-bottom: 40px;
-}
-
-.about-icon .em{
-	width: 52px;
-	height: 52px;
-}
-
-.about-text p{
-	padding: 0 20px;
-	text-align: initial;
-	color: white;
-}
-
-.about-img{
-	flex-basis: 50%;
-	margin: auto;
-}
-
-.about-img img{
-	width: 70%;
-	border-radius: 12px;
-}
-
-#music{
+#about {
   width: 100%;
   padding: 48px 0;
 }
 
-.music-box{
+.title-text {
+  text-align: center;
+  padding-bottom: 68px;
+}
+
+.title-text h1 {
+  font-size: 52px;
+  color: white;
+}
+
+.about-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.about {
+  flex-basis: 50%;
+}
+
+.about h1 {
+  text-align: left;
+  margin-bottom: 12px;
+  font-weight: 100;
+  color: white;
+}
+
+.about-brief {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about-icon .em {
+  width: 52px;
+  height: 52px;
+}
+
+.about-text p {
+  padding: 0 20px;
+  text-align: initial;
+  color: white;
+}
+
+.about-img {
+  flex-basis: 50%;
+  margin: auto;
+}
+
+.about-img img {
+  width: 70%;
+  border-radius: 12px;
+}
+
+#music {
+  width: 100%;
+  padding: 48px 0;
+}
+
+.music-box {
   width: 80%;
   margin: auto;
   display: flex;
@@ -136,7 +137,7 @@ body {
   justify-content: space-around;
 }
 
-.section{
-	position: absolute;
-	left: 24%;
+#photo {
+  position: absolute;
+  left: 24%;
 }
