@@ -162,6 +162,7 @@ body {
   opacity: 0;
   transition: 1s;
   background: linear-gradient(rgba(0, 0, 0, 0.5), #7b812a);
+  /* rgb(42 116 129) */
 }
 
 .music-desc {
@@ -211,12 +212,13 @@ hr {
 
 .box {
   background-size: 100%;
-  width: 350px;
-  height: 176px;
+  width: 352px;
+  height: 232px;
   position: relative;
   margin: auto;
-  border: 4px solid #ffffff;
-  animation: myanimation 30s infinite linear;
+  animation: myanimation 30s infinite ease-in-out;
+  /* 52s cubic-bezier(0.6, 0.71, 0.59, 0.74) */
   padding: 12px;
   margin-bottom: 16px;
+  border-radius: 16px;
 }
