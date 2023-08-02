@@ -5,9 +5,8 @@
 
 body {
   background-color: #000000;
-  /* font-family: oswald; */
   cursor: url("/images/cu_bg.png"), auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #banner {
@@ -36,8 +35,6 @@ body {
 #blink {
   animation: blinker 1.5s linear infinite;
 }
-
-
 
 .banner-btn {
   position: absolute;
@@ -140,4 +137,15 @@ body {
 #photo {
   position: absolute;
   left: 24%;
+}
+
+.box {
+  background-size: 100%;
+  width: 350px;
+  height: 176px;
+  position: relative;
+  margin: auto;
+  border: 4px solid #ffffff;
+  animation: myanimation 30s infinite linear;
+  display: inline-block;
 }
