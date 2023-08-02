@@ -72,6 +72,7 @@ body {
 .title-text h1 {
   font-size: 52px;
   color: white;
+  text-transform: uppercase;
 }
 
 .about-box {
@@ -195,8 +196,17 @@ hr {
 }
 
 #photo {
-  position: absolute;
-  left: 24%;
+  /* position: absolute;
+  left: 24%; */
+  width: 100%;
+  padding: 72px 0;
+}
+
+.photos {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -207,5 +217,6 @@ hr {
   margin: auto;
   border: 4px solid #ffffff;
   animation: myanimation 30s infinite linear;
-  display: inline-block;
+  padding: 12px;
+  margin-bottom: 16px;
 }
