@@ -11,7 +11,6 @@ body {
 
 /* banner */
 
-
 #banner {
   height: 108vh;
 }
@@ -231,16 +230,16 @@ hr {
 
 /* footer of page */
 
-#footer{
+#footer {
   padding: 24px;
   background: #1a171c;
 }
 
-.social{
+.social {
   text-align: center;
 }
 
-.social .fab{
+.social .fab {
   height: 40px;
   width: 52px;
   font-size: 24px;
@@ -251,13 +250,13 @@ hr {
   cursor: pointer;
 }
 
-.social p{
+.social p {
   font-size: 20px;
   margin-top: 20px;
   color: white;
 }
 
-.social i{
+.social i {
   margin-right: 28px;
 }
 
