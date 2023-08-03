@@ -9,6 +9,9 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+/* banner */
+
+
 #banner {
   height: 108vh;
 }
@@ -58,6 +61,8 @@ body {
   background-color: #29282e;
   font-size: 28px;
 }
+
+/* about */
 
 #about {
   width: 100%;
@@ -121,6 +126,8 @@ body {
   width: 80%;
   border-radius: 12px;
 }
+
+/* music of Zayn */
 
 #music {
   width: 100%;
@@ -196,9 +203,9 @@ hr {
   font-size: 24px;
 }
 
+/* photo of Zayn */
+
 #photo {
-  /* position: absolute;
-  left: 24%; */
   width: 100%;
   padding: 72px 0;
 }
@@ -222,6 +229,8 @@ hr {
   margin-bottom: 16px;
   border-radius: 16px;
 }
+
+/* footer of page */
 
 #footer{
   padding: 24px;
@@ -251,4 +260,20 @@ hr {
 
 .social i{
   margin-right: 28px;
+}
+
+.fa-facebook:before {
+  color: #0808c7;
+}
+
+.fa-instagram:before {
+  color: #ff00a5;
+}
+
+.fa-github:before {
+  color: #e5e5e9;
+}
+
+.fa-youtube:before {
+  color: #d11111;
 }
