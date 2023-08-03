@@ -168,8 +168,7 @@ body {
   border-radius: 8px;
   opacity: 0;
   transition: 1s;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), #7b812a);
-  /* rgb(42 116 129) */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(42 116 129));
 }
 
 .music-desc {
